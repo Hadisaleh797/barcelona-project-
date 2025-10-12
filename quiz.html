@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Barcelona Quiz</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Barça Quiz</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="achievements.html">Achievements</a></li>
+      <li><a href="players.html">Players</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="contact.html">Contact</a></li>
+ 
+
+    </ul>
+  </nav>
+
+  <section>
+    <form id="quizForm" onsubmit="return checkQuiz()">
+      <p>1. Who scored in the 2009 UCL Final?</p>
+      <input type="radio" name="q1" value="Messi"> Messi <br>
+      <input type="radio" name="q1" value="Eto'o"> Eto'o <br>
+      <input type="radio" name="q1" value="Henry"> Henry <br>
+
+      <p>2. In which year was Barcelona founded?</p>
+      <input type="radio" name="q2" value="1899"> 1899 <br>
+      <input type="radio" name="q2" value="1902"> 1902 <br>
+      <input type="radio" name="q2" value="1910"> 1910 <br>
+
+      <p>3. Who is Barcelona’s all-time top scorer?</p>
+      <input type="radio" name="q3" value="Messi"> Messi <br>
+      <input type="radio" name="q3" value="Suárez"> Suárez <br>
+      <input type="radio" name="q3" value="Ronaldinho"> Ronaldinho <br>
+
+      <p>4. Which stadium is home to Barça?</p>
+      <input type="radio" name="q4" value="Camp Nou"> Camp Nou <br>
+      <input type="radio" name="q4" value="Bernabeu"> Santiago Bernabeu <br>
+      <input type="radio" name="q4" value="Metropolitano"> Wanda Metropolitano <br>
+
+      <p>5. Who was coach during the 2015 Treble?</p>
+      <input type="radio" name="q5" value="Guardiola"> Guardiola <br>
+      <input type="radio" name="q5" value="Luis Enrique"> Luis Enrique <br>
+      <input type="radio" name="q5" value="Koeman"> Ronald Koeman <br>
+
+      <p>6. Which rival team plays El Clásico against Barça?</p>
+      <input type="radio" name="q6" value="Real Madrid"> Real Madrid <br>
+      <input type="radio" name="q6" value="Atletico"> Atletico Madrid <br>
+      <input type="radio" name="q6" value="Sevilla"> Sevilla <br>
+
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="quizResult"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Student Project</p>
+  </footer>
+</body>
+</html>
