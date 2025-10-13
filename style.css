@@ -92,5 +92,29 @@ header img {
   border-bottom: 1px solid #ccc;
 }
 img {
-  margin: 10px;
+  max-width: 100%;
+  height: auto;
 }
+.manager-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.manager-table th, 
+.manager-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.manager-table th {
+  background-color: #003366;
+  color: white;
+}
+
+.manager-table img {
+  border-radius: 10px;
+}
+
