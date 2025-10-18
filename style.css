@@ -117,4 +117,14 @@ img {
 .manager-table img {
   border-radius: 10px;
 }
+.elclasico-table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.elclasico-table .header-row {
+  background-color: #003366;
+  color: white;
+}
 
