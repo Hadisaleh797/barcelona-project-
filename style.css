@@ -127,4 +127,19 @@ img {
   background-color: #003366;
   color: white;
 }
+ .stadium-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.stadium-text {
+  width: 60%;
+  vertical-align: top;
+  padding-right: 20px;
+  }
+  .stadium-image {
+  width: 40%;
+  text-align: center;
+}
 
